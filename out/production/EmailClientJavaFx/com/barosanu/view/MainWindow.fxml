@@ -12,7 +12,7 @@
 
 <AnchorPane prefHeight="528.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.barosanu.controller.MainWindowController">
    <children>
-      <MenuBar layoutY="1.0" prefHeight="23.0" prefWidth="804.0">
+      <MenuBar layoutY="1.0" prefHeight="23.0" prefWidth="804.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
@@ -32,8 +32,8 @@
           </Menu>
         </menus>
       </MenuBar>
-      <TreeView fx:id="emailsTreeView" layoutY="27.0" prefHeight="501.0" prefWidth="216.0" />
-      <TableView fx:id="emailsTableView" layoutX="216.0" layoutY="27.0" prefHeight="206.0" prefWidth="586.0">
+      <TreeView fx:id="emailsTreeView" layoutY="27.0" prefHeight="501.0" prefWidth="216.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="27.0" />
+      <TableView fx:id="emailsTableView" layoutX="216.0" layoutY="27.0" prefHeight="206.0" prefWidth="586.0" AnchorPane.leftAnchor="216.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
         <columns>
           <TableColumn prefWidth="75.0" text="Sender" />
           <TableColumn prefWidth="183.20001220703125" text="Subject" />
@@ -42,6 +42,6 @@
             <TableColumn prefWidth="90.39996337890625" text="Date" />
         </columns>
       </TableView>
-      <WebView fx:id="emailWebView" layoutX="216.0" layoutY="233.0" prefHeight="295.0" prefWidth="586.0" />
+      <WebView fx:id="emailWebView" layoutX="216.0" layoutY="233.0" prefHeight="295.0" prefWidth="586.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="217.60000000000002" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="232.80001220703122" />
    </children>
 </AnchorPane>
