@@ -9,6 +9,7 @@ module EmailClientJavaFx {
     opens com.barosanu;
     opens com.barosanu.view;
     opens com.barosanu.controller;
+    opens com.barosanu.model;
 
 
 }
